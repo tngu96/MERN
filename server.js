@@ -4,7 +4,11 @@ const app = express();
 //test variables
 const owner = `Tai`;
 
+//connect db
 connectDB();
+
+//init mid ware
+app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send(`hello ${owner}`));
 
