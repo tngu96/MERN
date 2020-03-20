@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+//TODO
 //@route    GET api/profile
 //@desc     Test route
 //@access   Public

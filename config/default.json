@@ -1,4 +1,4 @@
 {
-    "mongoURI":
-      "mongodb+srv://tngu96:xCiWa5tFaUIsQfPI@azstack-hw5ws.mongodb.net/test?retryWrites=true&w=majority"
-  }
+  "mongoURI": "mongodb+srv://tngu96:xCiWa5tFaUIsQfPI@azstack-hw5ws.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}

@@ -1,8 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const app = express();
-//test variables
-const owner = `Tai`;
 
 //connect db
 connectDB();
@@ -10,7 +8,7 @@ connectDB();
 //init mid ware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.send(`hello ${owner}`));
+app.get('/', (req, res) => res.send(`hello world`));
 
 //Define route
 app.use('/api/users', require('./routes/api/users'));
